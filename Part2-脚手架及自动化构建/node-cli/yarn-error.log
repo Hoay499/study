@@ -1,0 +1,33 @@
+Arguments: 
+  E:\software\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add test2
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\software\;C:\Program Files\Git\cmd;D:\SoftWare\Cadence\SPB_16.6\openaccess\bin\win32\opt;D:\SoftWare\Cadence\SPB_16.6\tools\capture;D:\SoftWare\Cadence\SPB_16.6\tools\pspice;D:\SoftWare\Cadence\SPB_16.6\tools\specctra\bin;D:\SoftWare\Cadence\SPB_16.6\tools\fet\bin;D:\SoftWare\Cadence\SPB_16.6\tools\libutil\bin;D:\SoftWare\Cadence\SPB_16.6\tools\bin;D:\SoftWare\Cadence\SPB_16.6\tools\pcb\bin;;E:\software\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npmjs.org
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "name": "test2",
+    "version": "1.0.0",
+    "main": "index.js",
+    "bin":"cli.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
